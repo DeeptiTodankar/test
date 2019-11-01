@@ -1,0 +1,12 @@
+h2,.movie{
+    text-align: center;
+}
+.movie{
+    font-size: 120%;
+}
+.details{
+    width : 30%;
+    border : 1px dashed crimson;
+    padding:7px;
+    margin:4px;
+}

@@ -1,0 +1,14 @@
+
+{{link-to 'Movies' 'movies' }} {{link-to 'Characters' 'characters'}}
+<h2>This is a list of epic movies</h2>
+{{#each model as |movie| }}
+<div class="movie">
+<div><strong>Title </strong> : {{#link-to 'entity-details' movie }}
+    {{movie._record.title}}
+    {{/link-to}}
+    </div>
+</div><br>
+
+{{/each}}
+
+{{outlet}}

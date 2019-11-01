@@ -1,0 +1,6 @@
+{{link-to 'Movies' 'movies' }} {{link-to 'Characters' 'characters'}}
+<div class="details">
+    <h3>{{model._record.title}} <span class="details-year">({{model._record.year}})</span> </h3> 
+    <div>{{model._record.description}}</div>
+</div>
+{{outlet}}
